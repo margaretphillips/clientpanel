@@ -30,16 +30,11 @@ import { SettingsService } from './services/settings.service';
 import { AuthGuard } from './guards/auth.guard';
 import { RegisterGuard } from './guards/register.guard';
 
-const appRoutes : Routes = [
+const appRoutes: Routes = [
 
 ];
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCX4MrSN6HEwDSKlUlY6toGb4Rxijg0ekk",
-  authDomain: "clientpanel-bb4ac.firebaseapp.com",
-  databaseURL: "https://clientpanel-bb4ac.firebaseio.com",
-  storageBucket: "clientpanel-bb4ac.appspot.com",
-  messagingSenderId: "222233796667"
 
 }
 
