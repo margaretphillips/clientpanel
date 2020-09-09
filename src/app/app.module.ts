@@ -31,13 +31,7 @@ import { AuthGuard } from './guards/auth.guard';
 import { RegisterGuard } from './guards/register.guard';
 
 const appRoutes : Routes = [
-  {path:'', component: DashboardComponent, canActivate: [AuthGuard]},
-  {path: 'register', component: RegisterComponent, canActivate: [RegisterGuard]},
-  {path: 'login', component: LoginComponent},
-  {path: 'add-client', component: AddClientComponent, canActivate: [AuthGuard] },
-  {path:'client/:id', component: ClientDetailsComponent, canActivate: [AuthGuard]},
-  {path: 'settings', component: SettingsComponent, canActivate: [AuthGuard] },
-  {path: '**', component: PageNotFoundComponent }
+
 ];
 
 export const firebaseConfig = {
